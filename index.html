@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>yousef</title>
+  <!--عشان تخليه ريسبونسيف ويشتغل الانترننت الاكسبلولر-->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+
+</head>
+
+<body>
+  <audio src="sounds/Success-sound-effect.mp3" class="succ" preload="auto"></audio>
+  <audio src="sounds/Trumpet-looser-fail.mp3" class="fail" preload="auto"></audio>
+  <div class="control-buttons">
+    <span>Start Game</span>
+  </div>
+
+  <div class="info-container">
+    <div class="name">
+      Hello: <span></span>
+    </div>
+    <div class="tries">
+      Wrong Tries: <span>0</span>
+    </div>
+  </div>
+  <div class="memory-game-blocks">
+    <div class="game-block" data-technology="angular">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/angular.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="angular">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/angular.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="vuejs">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/vue.jpg" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="vuejs">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/vue.jpg" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="css3">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/css3-8-1175200.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="css3">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/css3-8-1175200.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="github">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/786391GitHub.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="github">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/786391GitHub.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="gulpjs">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/glup.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="gulpjs">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/glup.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="html5">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/html.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="html5">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/html.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="jest">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/python.jpg" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="jest">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/python.jpg" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="mongodb">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/mangodb.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="mongodb">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/mangodb.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="python">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/jest-3521517-2945020.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="python">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/jest-3521517-2945020.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="react">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/react2.png" alt="">
+      </div>
+    </div>
+    <div class="game-block" data-technology="react">
+      <div class="face front"></div>
+      <div class="face back">
+        <img src="img/react2.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!--لازم تخلي لينك ال جيكويري بعد لينكات الجافاسكريبت بتاعة ال بوتستراب-->
+
+  <!-- DO NOT USE SLIM VERSION OF JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+
+  </script>
+  <script src="js/jq.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script>
+
+
+  </script>
+  <!---
+   <script src="js/jquery.nicescroll.min.js"></script>
+-->
+
+
+
+
+  <script src='js/main.js'></script>
+</body>
+
+</html>
